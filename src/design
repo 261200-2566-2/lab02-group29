@@ -1,0 +1,30 @@
+1. give a complete description of AirPurifier class
+  > instance variables ?
+      - model
+      - serialNo
+      - power
+      - FanSpeed
+      - AirQuality
+
+
+   >  instance methods ?
+      - turnOn();
+      - turnOff();
+      - setFanSpeed(int speed);
+      - checkAirQuality();
+
+   >  class variables ?
+      - totalAirPurifiers
+
+   >  class methods?
+      - getTotalAirPurifiers();
+
+
+2. for each method proposed above, how do you plan to implement it?
+
+   : กำหนดค่าเริ่มต้นให้กับ class AirPurifier ( model ,serialNo, power , fanspeed , airQuality )
+   : input = model ,serialNo
+   : output = ข้อมูลเกี่ยวกับ AirPurifier ที่สร้างขึ้นมาทั้งหมด
+
+
+credit : https://chat.openai.com/share/51d00d98-8981-4b1e-ba1f-8502fa9bb23d
